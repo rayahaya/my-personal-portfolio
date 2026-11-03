@@ -292,7 +292,7 @@ section{
     margin-top: 1em;
     text-align: center;
 }
-.skills{
+.skills, .Experience{
     padding: 60px 8%;
 }
 .skills-content{
@@ -301,7 +301,7 @@ section{
     gap:25px;
     margin-top: 2em;
 }
-.skills-box{
+.skills-box , .Experience-item{
     background-color: #111;
     color: white;
     padding: 30px 20px;
@@ -309,6 +309,30 @@ section{
     border-radius: 16px;
     box-shadow: 0 0 25px orangered;
 }
+.Experience{
+    padding: 60px 8%;
+    background-color: #111;
+    color: white;
+    margin-top: 2em;
+}
+.experience-item{
+    margin-bottom: 2em; background-color: #111;
+    color: white;
+    padding: 30px 20px;
+    border:2px solid orangered;
+    border-radius: 16px;
+    box-shadow: 0 0 25px orangered;
 
+}
+.experience-content h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.heading h2{
+    margin: 4em;
+    padding: 2em;
+    margin-bottom: 2em;
+}
     
    
